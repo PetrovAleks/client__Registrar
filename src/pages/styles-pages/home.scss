@@ -1,0 +1,82 @@
+.clientele {
+	padding-top: 80px;
+	padding-bottom: 100px;
+	width: 100vw;
+}
+.clientele__title {
+	margin-bottom: 10px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(58, 58, 58);
+}
+.wrapper-list {
+	width: 100%;
+	overflow-y: scroll;
+}
+.clientele__text {
+	width: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-bottom: 40px;
+}
+
+.wrapper-clientele__list {
+	min-width: 400px;
+	max-width: 800px;
+	min-height: 40vh;
+
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+
+	box-shadow: 0px 5px 10px rgb(114, 112, 112);
+}
+.clientele__list {
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+}
+.info-text {
+	color: #2c2c2cd0;
+}
+
+.clientele__item {
+	padding: 10px;
+	cursor: pointer;
+	transition: background-color 250ms linear;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+	&:nth-child(odd) {
+		background-color: #c4c4c4;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: #d4e4ff;
+	}
+}
+
+.clientele__btn {
+	width: 30%;
+	border: none;
+	cursor: pointer;
+
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	color: #fff;
+	background-color: rgb(77, 224, 77);
+	transition: background-color 250ms linear;
+
+	&:hover,
+	&:focus {
+		background-color: darkgreen;
+	}
+}

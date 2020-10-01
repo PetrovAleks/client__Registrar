@@ -1,0 +1,41 @@
+.about {
+	padding-top: 80px;
+	padding-bottom: 100px;
+	width: 100vw;
+}
+.about-wrapper {
+	display: flex;
+}
+
+.about-wrapper__img {
+	flex-basis: 30vw;
+	height: auto;
+	margin-right: 80px;
+}
+
+.about-wrapper__text {
+	width: 30vw;
+}
+
+.about__title {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.about__text {
+	font-size: 18px;
+	letter-spacing: 0.07em;
+	margin-bottom: 10px;
+}
+
+.about__list {
+	display: flex;
+}
+.about__item {
+	margin-right: 30px;
+}
+
+.about__links {
+	color: rgb(107, 44, 255);
+	text-decoration: none;
+	text-transform: uppercase;
+}
