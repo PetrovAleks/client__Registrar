@@ -1,3 +1,4 @@
+const date = new Date().toLocaleDateString();
 export default class Client {
 	constructor(name, surname, gender, loyaltyProgram, id) {
 		this.name = name;
@@ -5,6 +6,6 @@ export default class Client {
 		this.gender = gender;
 		this.loyaltyProgram = loyaltyProgram;
 		this.id = id;
-		this.date = new Date().toLocaleDateString();
+		this.date = date;
 	}
 }

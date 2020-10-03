@@ -16,14 +16,15 @@ function About() {
 				<div className="about-wrapper__text">
 					<h2 className="about__title">Петров Александр</h2>
 					<p className="about__text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-						harum voluptate temporibus eveniet inventore. Tenetur laboriosam
-						illo nemo qui nam vel aut impedit sit? Repellendus illo voluptate
-						amet voluptatibus doloribus?
+						Здравствуйте, претендую на позицию Junior Frontend Developer. Ниже
+						по ссылкам можно перейти на мое портфолио и репозиторий на GITHUB
 					</p>
 					<ul className="about__list list-style">
 						<li className="about__item">
-							<a className="about__links" href="https://github.com/PetrovAleks">
+							<a
+								className="about__links"
+								href="https://petrovaleks.github.io/portfolio_site/"
+							>
 								portfolio
 							</a>
 						</li>
